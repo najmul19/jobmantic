@@ -2,7 +2,7 @@ import React from "react";
 import img from "../../../assets/Icons/Vector.png";
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100  px-24 max-h-[130px]">
+    <div className="navbar bg-[#F9FBFF]  px-24 max-h-[130px]">
       <div className="navbar-start">
         {/* <a className="text-2xl font-bold">
           <span className="text-sky-600">Job</span>
@@ -28,7 +28,7 @@ const Navbar = () => {
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal gap-4 font-medium">
+        <ul className="menu menu-horizontal gap-4 font-medium text-[14px]">
           <li>
             <a className="text-sky-600">AI Resume</a>
           </li>
