@@ -12,6 +12,7 @@ import ContentGen from '../ContentGen';
 import ATSOptimizer from '../ATSOptimizer';
 import ResumeManager from '../ResumeManager';
 import HowToWorks from '../HowToWorks';
+import WhyChooseResumeBuilder from '../WhyChooseResumeBuilder';
 
 const Home = () => {
     return (
@@ -29,6 +30,7 @@ const Home = () => {
             <ATSOptimizer></ATSOptimizer>   
             <ResumeManager></ResumeManager>
             <HowToWorks></HowToWorks>
+            <WhyChooseResumeBuilder></WhyChooseResumeBuilder>
         </div>
     );
 };
