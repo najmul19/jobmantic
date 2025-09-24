@@ -3,6 +3,7 @@ import Hero from './Hero';
 import AIMotivation from './AIMotivation';
 import WhyChoos from '../WhyChoos';
 import ResumeTailoring from '../ResumeTailoring';
+import Features from '../Feature';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <AIMotivation></AIMotivation>
             <WhyChoos></WhyChoos>
             <ResumeTailoring></ResumeTailoring>
+            <Features></Features>
         </div>
     );
 };
