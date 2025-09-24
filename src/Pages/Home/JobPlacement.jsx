@@ -64,7 +64,7 @@ const JobPlacement = () => {
         </h2>
         <div className="relative w-[150px] sm:w-[199px] border-t-4 border-black my-4">
           <img
-            className="absolute -right-6 -top-5 w-8 sm:w-10 h-8 sm:h-10"
+            className="absolute -right-12 -top-5 w-8 sm:w-10 h-8 sm:h-10"
             src={tara}
             alt="tara"
           />
