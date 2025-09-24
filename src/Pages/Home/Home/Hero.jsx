@@ -3,6 +3,7 @@ import meterImg from "../../../assets/Icons/meter.png";
 import badgeImg from "../../../assets/Icons/tara.png";
 import starIcon from "../../../assets/Icons/Vector.png";
 import line from "../../../assets/Icons/line.png";
+import arrow from "../../../assets/Icons/arrow.png";
 import star from "../../../assets/Icons/start.png";
 import { IoIosArrowDropright } from "react-icons/io";
 
@@ -109,9 +110,10 @@ const Hero = () => {
             resumes, beats ATS, and helps you land better jobs faster.
           </p>
 
-          <button className="bg-black flex items-center justify-center gap-2 text-white font-medium rounded-full px-6 py-3 text-lg hover:bg-gray-800 transition">
-            Improve your resume for FREE
-            <IoIosArrowDropright className="text-white text-2xl" />
+          <button className="bg-black flex items-center justify-center gap-2 text-white font-medium rounded-full px-6 py-3 text-[20px] hover:bg-gray-800 transition">
+            Improve your resume for FREE 
+             <img className="text-white w-[24px]" src={arrow} alt="arrow" />
+            {/* <IoIosArrowDropright className="text-white text-2xl" /> */}
           </button>
         </div>
 
