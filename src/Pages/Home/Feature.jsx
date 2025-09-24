@@ -20,12 +20,12 @@ const Features = () => {
     <div>
       <div className="px-4 sm:px-6 lg:px-24 py-8 lg:py-14 bg-gradient-to-r from-[#F9FBFF] via-[#F5F9FF] to-[#E6F2FF]">
         <div className="hidden lg:block">
-          <div className="w-full flex justify-center">
-            <div className="flex relative">
+          <div className="w-full flex justify-center ">
+            <div className="pl-20 flex relative">
               {features.map((feature, index) => (
                 <React.Fragment key={index}>
                   <div
-                    className="flex flex-col items-center justify-center bg-[#E6F2FF] 
+                    className=" flex flex-col items-center justify-center bg-[#E6F2FF] 
                            rounded-full w-[162px] h-[162px] p-4 z-20 relative -left-14"
                     style={{
                       transform:

@@ -14,6 +14,7 @@ import ResumeManager from '../ResumeManager';
 import HowToWorks from '../HowToWorks';
 import WhyChooseResumeBuilder from '../WhyChooseResumeBuilder';
 import JobPlacement from '../JobPlacement';
+import Pricing from '../Pricing';
 
 const Home = () => {
     return (
@@ -33,6 +34,7 @@ const Home = () => {
             <HowToWorks></HowToWorks>
             <WhyChooseResumeBuilder></WhyChooseResumeBuilder>
             <JobPlacement></JobPlacement>
+            <Pricing></Pricing>
         </div>
     );
 };
