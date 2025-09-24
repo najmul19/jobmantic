@@ -5,7 +5,7 @@ import user3 from "../../assets/Icons/user3.png";
 
 const VoiceOfWorld = () => {
   return (
-    <div className="px-6 sm:px-10 lg:px-20 py-16 bg-white text-[#000000]">
+    <div className="px-6 sm:px-10 lg:px-20 py-16  text-[#000000]">
      {/* header */}
       <div className="max-w-4xl text-left">
         <h2 className="text-2xl md:text-[36px] font-bold uppercase tracking-wide">
@@ -81,7 +81,7 @@ const VoiceOfWorld = () => {
         <div className="space-y-8 flex flex-col items-center lg:items-end">
         
           <div
-            className="bg-gray-50 shadow-sm p-6 w-full md:w-[720px] min-h-[168px]"
+            className="bg-gray-50  p-6 w-full md:w-[720px] min-h-[168px]"
             style={{
               borderTopLeftRadius: "24px",
               borderBottomRightRadius: "24px",
@@ -95,7 +95,7 @@ const VoiceOfWorld = () => {
               to use this website.
             </p>
             <div className="flex flex-row items-center gap-2 mt-4">
-              <img className="w-[32px] h-[32px]" src={user2} alt="" />
+              <img className="w-[32px] h-[32px] rounded-full" src={user2} alt="" />
               <p className="font-semibold">
                 Michelle V.{" "}
                 <span className="font-normal text-gray-500">
@@ -107,7 +107,7 @@ const VoiceOfWorld = () => {
 
           
           <div
-            className="bg-gray-50 shadow-sm p-6 w-full md:w-[600px] min-h-[188px]"
+            className="bg-gray-50  p-6 w-full md:w-[600px] min-h-[188px]"
             style={{
               borderTopLeftRadius: "24px",
               borderBottomRightRadius: "24px",
@@ -121,7 +121,7 @@ const VoiceOfWorld = () => {
               gonna use it for every job I apply.
             </p>
             <div className="flex flex-row items-center gap-2 mt-4">
-              <img className="w-[32px] h-[32px]" src={user3} alt="" />
+              <img className="w-[32px] h-[32px] rounded-full" src={user3} alt="" />
               <p className="font-semibold">
                 Shiva V.{" "}
                 <span className="font-normal text-gray-500">
@@ -133,7 +133,7 @@ const VoiceOfWorld = () => {
 
           
           <div
-            className="bg-gray-50 shadow-sm p-6 w-full md:w-[640px] min-h-[168px]"
+            className="bg-gray-50  p-6 w-full md:w-[640px] min-h-[168px]"
             style={{
               borderTopLeftRadius: "24px",
               borderBottomRightRadius: "24px",
@@ -146,7 +146,7 @@ const VoiceOfWorld = () => {
               action on suggestions and not just learn about them.
             </p>
             <div className="flex flex-row items-center gap-2 mt-4">
-              <img className="w-[32px] h-[32px]" src={user1} alt="" />
+              <img className="w-[32px] h-[32px] rounded-full" src={user1} alt="" />
               <p className="font-semibold">
                 Ken D.{" "}
                 <span className="font-normal text-gray-500">

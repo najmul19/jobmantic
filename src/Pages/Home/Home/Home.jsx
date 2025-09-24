@@ -16,6 +16,7 @@ import WhyChooseResumeBuilder from '../WhyChooseResumeBuilder';
 import JobPlacement from '../JobPlacement';
 import Pricing from '../Pricing';
 import VoiceOfWorld from '../VoiceOfWorld';
+import FAQ from '../FAQ';
 
 const Home = () => {
     return (
@@ -37,6 +38,7 @@ const Home = () => {
             <JobPlacement></JobPlacement>
             <Pricing></Pricing>
             <VoiceOfWorld></VoiceOfWorld>
+            <FAQ></FAQ>
         </div>
     );
 };
