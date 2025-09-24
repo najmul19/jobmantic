@@ -47,19 +47,18 @@ const steps = [
 const HowToWorks = () => {
   return (
     <div className="relative px-4 sm:px-8 lg:px-24 py-14 text-center text-[#000000]">
-    
-<div className="absolute inset-0 bg-gradient-to-r from-white via-[#23A2FC] to-[#e0f2ff] opacity-30 blur-3xl -z-10"></div>
+      
+      <div className="absolute inset-0 bg-gradient-to-r from-white via-[#23A2FC] to-[#e0f2ff] opacity-30 blur-3xl -z-10"></div>
 
       <h3 className="text-2xl sm:text-3xl lg:text-[40px] font-semibold mb-10 relative z-10">
         How Our <span className="text-[#23A2FC]">AI Resume</span> Builder Works
       </h3>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-center relative z-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center relative z-10">
         {steps.map((step) => (
           <div
             key={step.id}
-            className="bg-white rounded-[24px] p-6 text-left flex flex-col gap-4 "
-            style={{ width: "339px", height: "250px" }}
+            className="bg-white rounded-[24px] p-6 text-left flex flex-col gap-4 w-full max-w-[340px] h-auto min-h-[250px] transition-transform duration-300 hover:scale-[1.03]"
           >
             <div className="flex items-center justify-between gap-3">
               <div className="w-8 h-8 flex items-center justify-center rounded-full bg-[#23A2FC1A] font-semibold">
@@ -82,5 +81,6 @@ const HowToWorks = () => {
     </div>
   );
 };
+
 
 export default HowToWorks;

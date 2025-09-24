@@ -33,26 +33,26 @@ const WhyChooseResumeBuilder = () => {
         <span className="text-[#23A2FC]">AI Resume</span> Builder
       </h3>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {features.map((item, index) => (
-          <div
-            key={item.id}
-            className={`rounded-[24px] px-6 py-8 flex flex-col items-center justify-center text-center
-              ${
-                index === 0 || index === features.length - 1
-                  ? "bg-gradient-to-b from-white via-[#F0F8FF] to-[#E6F2FF]" 
-                  : "bg-white"
-              }`}
-            style={{ width: "258px", height: "246px" }}
-          >
-            <h2 className="text-[32px] sm:text-[40px] font-bold text-[#000000]">
-              {item.number}
-            </h2>
-            <h4 className="text-[18px] font-semibold mt-2">{item.title}</h4>
-            <p className="text-gray-600 text-[16px] mt-2">{item.desc}</p>
-          </div>
-        ))}
-      </div>
+     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center">
+  {features.map((item, index) => (
+    <div
+      key={item.id}
+      className={`rounded-[24px] px-6 py-8 flex flex-col items-center justify-center text-center 
+        ${
+          index === 0 || index === features.length - 1
+            ? "bg-gradient-to-b from-white via-[#F0F8FF] to-[#E6F2FF]"
+            : "bg-white"
+        }`}
+    >
+      <h2 className="text-[32px] sm:text-[40px] font-bold text-[#000000]">
+        {item.number}
+      </h2>
+      <h4 className="text-[18px] font-semibold mt-2">{item.title}</h4>
+      <p className="text-gray-600 text-[16px] mt-2">{item.desc}</p>
+    </div>
+  ))}
+</div>
+
     </div>
   );
 };
