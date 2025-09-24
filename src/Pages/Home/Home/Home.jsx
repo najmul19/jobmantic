@@ -9,6 +9,7 @@ import CareerMonitor from '../CareerMonitor';
 import ResumeBuilder from '../ResumeBuilder';
 import Revolutionary from '../Revolutionary';
 import ContentGen from '../ContentGen';
+import ATSOptimizer from '../ATSOptimizer';
 
 const Home = () => {
     return (
@@ -22,7 +23,8 @@ const Home = () => {
             <Features></Features>   
             <ResumeBuilder></ResumeBuilder> 
             <Revolutionary></Revolutionary>
-            <ContentGen></ContentGen>        
+            <ContentGen></ContentGen>   
+            <ATSOptimizer></ATSOptimizer>     
         </div>
     );
 };
