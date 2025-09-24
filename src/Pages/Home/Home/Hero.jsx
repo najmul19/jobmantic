@@ -9,7 +9,6 @@ import { IoIosArrowDropright } from "react-icons/io";
 const Hero = () => {
   return (
     <div className="relative min-h-screen overflow-hidden bg-gradient-to-br from-[#F9FBFF] via-[#F5F9FF] to-[#E6F2FF]">
- 
       <div
         className="absolute inset-0 opacity-10"
         style={{
@@ -18,43 +17,91 @@ const Hero = () => {
         }}
       ></div>
 
-
       <div className="absolute top-20 left-150 w-72 h-72 bg-[#1e83d1] rounded-full opacity-20 blur-3xl"></div>
       <div className="absolute bottom-20 right-90 w-96 h-96 bg-[#D1EBFF] rounded-full opacity-15 blur-3xl"></div>
 
-      <div className="relative px-24 py-14 grid grid-cols-1 lg:grid-cols-2 items-center">
-       
-        <div className="space-y-6">
+      <div className="relative px-4 sm:px-24 py-14 grid grid-cols-1 lg:grid-cols-2 items-center">
+        {/* <div className="space-y-6">
           <div>
             <img src={badgeImg} alt="Top Pick Badge" className="w-32" />
           </div>
-          <div className="absolute top-10 md:top-14 left-36 max-w-[30px]">
+          <div className="absolute top-10 md:top-14 left-16 sm:left-36 max-w-[30px]">
             <img src={star} alt="" />
           </div>
-          <div className="absolute top-12 md:top-16 left-33 max-w-[20px]">
+          <div className="absolute top-12 md:top-16 left-13 sm:left-33 max-w-[20px]">
             <img src={star} alt="" />
           </div>
-          <div className="absolute top-12 md:top-16 left-41 max-w-[20px]">
+          <div className="absolute top-12 md:top-16 left-21 sm:left-41 max-w-[20px]">
             <img src={star} alt="" />
           </div>
-          <div className="absolute top-14 md:top-18 left-31 max-w-[12px]">
+          <div className="absolute top-14 md:top-18 left-11 sm:left-31 max-w-[12px]">
             <img src={star} alt="" />
           </div>
-          <div className="absolute top-14 md:top-18 left-45 max-w-[12px]">
+          <div className="absolute top-14 md:top-18 left-25 sm:left-45 max-w-[12px]">
             <img src={star} alt="" />
           </div>
-          <div className="absolute top-17 md:top-24 left-30">
+          <div className="absolute top-17 md:top-24 left-10 sm:left-30">
             <div className="text-[16px] font-semibold">
-                <span className="text-[#23A2FC]">TOP </span><span>PICK</span>
+              <span className="text-[#23A2FC]">TOP </span>
+              <span>PICK</span>
             </div>
             <div>
-                <h3 className="text-[12px] text-[#060606]">- Jobmantic -</h3>
+              <h3 className="text-[12px] text-[#060606]">- Jobmantic -</h3>
             </div>
           </div>
 
-          <h1 className="text-[48px] md:text-5xl font-bold leading-snug">
-            <span className="font-normal">AI Resume Builder & Job Placement</span> –{" "}
-            <span className="">Get Hired 3X Faster</span>
+          <h1 className="text-3xl sm:text-[48px] md:text-5xl font-bold leading-snug">
+            <span className="font-normal">
+              AI Resume Builder & Job Placement
+            </span>{" "}
+            – <span className="">Get Hired 3X Faster</span>
+          </h1>
+
+          <p className="text-[#000000] text-[18px] leading-relaxed">
+            Boost your job search with our AI-powered platform that tailors
+            resumes, beats ATS, and helps you land better jobs faster.
+          </p>
+
+          <button className="bg-black flex items-center justify-center gap-2 text-white font-medium rounded-full px-6 py-3 text-lg hover:bg-gray-800 transition">
+            Improve your resume for FREE
+            <IoIosArrowDropright className="text-white text-2xl" />
+          </button>
+        </div> */}
+
+        <div className="space-y-6">
+          <div className="relative">
+            <img src={badgeImg} alt="Top Pick Badge" className="w-32" />
+            <div className="absolute -top-6 left-12 max-w-[30px]">
+              <img src={star} alt="" />
+            </div>
+            <div className="absolute -top-3 left-9 max-w-[20px]">
+              <img src={star} alt="" />
+            </div>
+            <div className="absolute -top-3 left-18 max-w-[20px]">
+              <img src={star} alt="" />
+            </div>
+            <div className="absolute -top-1 left-7 max-w-[12px]">
+              <img src={star} alt="" />
+            </div>
+            <div className="absolute -top-1 left-22 max-w-[12px]">
+              <img src={star} alt="" />
+            </div>
+            <div className="absolute top-2 left-7">
+              <div className="text-[16px] font-semibold">
+                <span className="text-[#23A2FC]">TOP </span>
+                <span>PICK</span>
+              </div>
+              <div>
+                <h3 className="text-[12px] text-[#060606]">- Jobmantic -</h3>
+              </div>
+            </div>
+          </div>
+
+          <h1 className="text-3xl sm:text-[48px] md:text-5xl font-bold leading-snug">
+            <span className="font-normal">
+              AI Resume Builder & Job Placement
+            </span>{" "}
+            – <span className="">Get Hired 3X Faster</span>
           </h1>
 
           <p className="text-[#000000] text-[18px] leading-relaxed">
@@ -67,9 +114,9 @@ const Hero = () => {
             <IoIosArrowDropright className="text-white text-2xl" />
           </button>
         </div>
+
         {/* right part */}
         <div className="relative md:flex items-start md:max-w[591] md:max-h-[524px] ">
-       
           <div className=" md:left-7 text-[14px] bg-white md:w-[306px] rounded-l-[20px]  px-6 pt-6 pb-22  border-gray-200 relative top-18">
             <p className="text-[#A3A7AB] text-[10px] ">Name</p>
 
@@ -86,7 +133,9 @@ const Hero = () => {
 
             <input type="text" className="bg-[#F3F4F6] h-4 w-[192px]" />
             <input type="text" className="bg-[#F3F4F6] h-4 w-[192px]" />
-            <p className="text-[#A3A7AB] text-[10px] h-[24px] mt-2.5">EXPERIENCE</p>
+            <p className="text-[#A3A7AB] text-[10px] h-[24px] mt-2.5">
+              EXPERIENCE
+            </p>
 
             <input type="text" className="bg-[#F3F4F6] h-4 w-[192px]" />
             <input type="text" className="bg-[#F3F4F6] h-4 w-[192px]" />
@@ -94,7 +143,6 @@ const Hero = () => {
 
           {/* 2nd/2nd part */}
           <div className="bg-white rounded-tl-[20px]  p-6  border-gray-200 md:w-3/4 min-h-[459px] relative z-10 mt-32  md:mt-5 ">
-         
             <div className="flex items-center justify-between mb-6">
               <h1 className="text-xl font-bold text-[#000000]">Ariful Islam</h1>
             </div>
@@ -110,7 +158,6 @@ const Hero = () => {
               </p>
             </div>
 
-        
             <div className="mb-6">
               <h3 className="text-sm font-semibold text-gray-700 mb-2">
                 SKILL
@@ -121,7 +168,6 @@ const Hero = () => {
               </p>
             </div>
 
-       
             <div>
               <h3 className="text-sm font-semibold text-gray-700 mb-2">
                 EXPERIENCE
@@ -163,7 +209,6 @@ const Hero = () => {
               </div>
             </div>
 
-  
             <img
               src={meterImg}
               alt="ATS Meter"
@@ -173,16 +218,16 @@ const Hero = () => {
             <img
               src={line}
               alt="line indicator"
-              className="absolute top-3 -left-40 w-[150px] h-[43px]"
+              className="hidden sm:block absolute top-3 -left-40 w-[150px] h-[43px]"
             />
+
             <img
               src={starIcon}
               alt="star icon"
-              className="absolute -top-5 -left-5 w-[40px] h-[40px]"
+              className="hidden sm:block absolute -top-5 -left-5 w-[40px] h-[40px]"
             />
           </div>
 
-   
           <div className="absolute bottom-10 h-[32px] right-0 bg-white shadow-md px-4 py-2 rounded-full text-sm flex items-center gap-2 border border-gray-200 z-40">
             <img src={starIcon} alt="icon" className="w-4 h-4" />
             <span className="font-medium">Summary Enhanced</span>
