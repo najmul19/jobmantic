@@ -4,6 +4,7 @@ import AIMotivation from './AIMotivation';
 import WhyChoos from '../WhyChoos';
 import ResumeTailoring from '../ResumeTailoring';
 import Features from '../Feature';
+import JobMatch from '../JobMatch';
 
 const Home = () => {
     return (
@@ -12,7 +13,9 @@ const Home = () => {
             <AIMotivation></AIMotivation>
             <WhyChoos></WhyChoos>
             <ResumeTailoring></ResumeTailoring>
+            <JobMatch></JobMatch>
             <Features></Features>
+            
         </div>
     );
 };
