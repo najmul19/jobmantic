@@ -35,7 +35,7 @@ const FAQ = () => {
 
   return (
     <div className=" py-12 px-6 sm:px-12 lg:px-24 text-center">
-      {/* Learn More Button */}
+      {/* Learn More */}
       <button
         onClick={() => setShowFAQ(!showFAQ)}
         className="flex items-center gap-1 mx-auto text-gray-800 font-medium"
@@ -55,7 +55,7 @@ const FAQ = () => {
             FREQUENTLY ASKED QUESTIONS
           </h2>
 
-          {/* Search Bar */}
+        
           <div className="flex justify-center mb-8 ">
             <input
               type="text"
