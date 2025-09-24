@@ -7,6 +7,8 @@ import Features from '../Feature';
 import JobMatch from '../JobMatch';
 import CareerMonitor from '../CareerMonitor';
 import ResumeBuilder from '../ResumeBuilder';
+import Revolutionary from '../Revolutionary';
+import ContentGen from '../ContentGen';
 
 const Home = () => {
     return (
@@ -18,7 +20,9 @@ const Home = () => {
             <JobMatch></JobMatch>
             <CareerMonitor></CareerMonitor>
             <Features></Features>   
-            <ResumeBuilder></ResumeBuilder>         
+            <ResumeBuilder></ResumeBuilder> 
+            <Revolutionary></Revolutionary>
+            <ContentGen></ContentGen>        
         </div>
     );
 };

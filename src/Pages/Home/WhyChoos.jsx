@@ -12,7 +12,7 @@ const WhyChoos = () => {
         </h2>
         <div className=" relative w-[199px] border-t-4 border-black my-4">
           <img
-            className="absolute left-52 -top-7 w-10 h-10"
+            className="absolute left-52 -top-5 w-10 h-10"
             src={tara}
             alt="tara"
           />
