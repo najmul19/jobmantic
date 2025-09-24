@@ -6,6 +6,7 @@ import ResumeTailoring from '../ResumeTailoring';
 import Features from '../Feature';
 import JobMatch from '../JobMatch';
 import CareerMonitor from '../CareerMonitor';
+import ResumeBuilder from '../ResumeBuilder';
 
 const Home = () => {
     return (
@@ -16,7 +17,8 @@ const Home = () => {
             <ResumeTailoring></ResumeTailoring>
             <JobMatch></JobMatch>
             <CareerMonitor></CareerMonitor>
-            <Features></Features>            
+            <Features></Features>   
+            <ResumeBuilder></ResumeBuilder>         
         </div>
     );
 };
