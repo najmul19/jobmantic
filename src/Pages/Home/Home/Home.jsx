@@ -15,6 +15,7 @@ import HowToWorks from '../HowToWorks';
 import WhyChooseResumeBuilder from '../WhyChooseResumeBuilder';
 import JobPlacement from '../JobPlacement';
 import Pricing from '../Pricing';
+import VoiceOfWorld from '../VoiceOfWorld';
 
 const Home = () => {
     return (
@@ -35,6 +36,7 @@ const Home = () => {
             <WhyChooseResumeBuilder></WhyChooseResumeBuilder>
             <JobPlacement></JobPlacement>
             <Pricing></Pricing>
+            <VoiceOfWorld></VoiceOfWorld>
         </div>
     );
 };
