@@ -8,7 +8,7 @@ import { IoIosArrowDropright } from "react-icons/io";
 
 const Hero = () => {
   return (
-    <div className="relative min-h-screen overflow-hidden bg-gradient-to-br from-[#F9FBFF] via-[#F5F9FF] to-[#E6F2FF]">
+    <div className="relative min-h-screen overflow-hidden ">
       <div
         className="absolute inset-0 opacity-10"
         style={{
