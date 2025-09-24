@@ -11,6 +11,7 @@ import Revolutionary from '../Revolutionary';
 import ContentGen from '../ContentGen';
 import ATSOptimizer from '../ATSOptimizer';
 import ResumeManager from '../ResumeManager';
+import HowToWorks from '../HowToWorks';
 
 const Home = () => {
     return (
@@ -27,6 +28,7 @@ const Home = () => {
             <ContentGen></ContentGen>   
             <ATSOptimizer></ATSOptimizer>   
             <ResumeManager></ResumeManager>
+            <HowToWorks></HowToWorks>
         </div>
     );
 };
