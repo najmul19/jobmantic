@@ -10,6 +10,7 @@ import ResumeBuilder from '../ResumeBuilder';
 import Revolutionary from '../Revolutionary';
 import ContentGen from '../ContentGen';
 import ATSOptimizer from '../ATSOptimizer';
+import ResumeManager from '../ResumeManager';
 
 const Home = () => {
     return (
@@ -24,7 +25,8 @@ const Home = () => {
             <ResumeBuilder></ResumeBuilder> 
             <Revolutionary></Revolutionary>
             <ContentGen></ContentGen>   
-            <ATSOptimizer></ATSOptimizer>     
+            <ATSOptimizer></ATSOptimizer>   
+            <ResumeManager></ResumeManager>
         </div>
     );
 };
