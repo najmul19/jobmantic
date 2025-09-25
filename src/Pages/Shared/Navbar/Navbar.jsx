@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="navbar bg-[#F9FBFF]  sm:px-8 md:px-16 lg:px-24 max-h-[130px]">
   
-      <div className="navbar-start">
+      <div className="navbar-start w-full">
       
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
