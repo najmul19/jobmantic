@@ -110,9 +110,13 @@ const Hero = () => {
             resumes, beats ATS, and helps you land better jobs faster.
           </p>
 
-          <button className="bg-black flex items-center justify-center gap-2 text-white font-medium rounded-full px-6 py-3 text-[20px] hover:bg-gray-800 transition">
-            Improve your resume for FREE 
-             <img className="text-white w-[24px]" src={arrow} alt="arrow" />
+          <button className="bg-black flex items-center justify-center gap-2 text-white font-medium rounded-full px-3 sm:px-6 py-2 sm:py-3 text-[16px] sm:text-[20px] hover:bg-gray-800 transition">
+            Improve your resume for FREE
+            <img
+              className="text-white w-[20px] sm:w-[24px]"
+              src={arrow}
+              alt="arrow"
+            />
             {/* <IoIosArrowDropright className="text-white text-2xl" /> */}
           </button>
         </div>
@@ -145,33 +149,52 @@ const Hero = () => {
 
           {/* 2nd/2nd part */}
           <div className="bg-white rounded-tl-[20px]  p-6  border-gray-200 md:w-3/4 min-h-[459px] relative z-10 mt-32  md:mt-5 ">
-            <div className="flex items-center justify-between mb-6">
+            <div className="flex items-center justify-between mb-3">
               <h1 className="text-xl font-bold text-[#000000]">Ariful Islam</h1>
+            </div>
+            <div className="flex flex-row gap-2 mb-3">
+              <input
+                type="text"
+                className="bg-[#F3F4F6] h-[16px] w-[64px] rounded-[2px]"
+              />
+              <input
+                type="text"
+                className="bg-[#F3F4F6] h-[16px] w-[64px] rounded-[2px] "
+              />
+              <input
+                type="text"
+                className="bg-[#F3F4F6] h-[16px] w-[64px] rounded-[2px]"
+              />
             </div>
 
             <div className="mb-6">
               <h2 className="text-sm font-semibold text-[#000000] mb-2">
                 PROFESSIONAL SUMMARY
               </h2>
-              <p className="text-[#535353] text-[10px] leading-relaxed">
-                Motivated and dedicated individual seeking opportunities to
-                apply skills and grow professionally. Strong work ethic with the
-                ability to adapt to new challenges.
+              <p className="text-[#535353] text-[10px] leading-relaxed ">
+                <span className="bg-[#E0F6FF]">
+                  Motivated and dedicated individual seeking opportunities to
+                  apply skills and grow professionally. Strong work ethic with
+                  the ability to adapt to new challenges.
+                </span>
               </p>
             </div>
 
             <div className="mb-6">
-              <h3 className="text-sm font-semibold text-gray-700 mb-2">
+              <h3 className="text-[12px] font-semibold text-[#000000] mb-2">
                 SKILL
               </h3>
               <p className="text-[#535353] text-[10px] leading-relaxed">
-                Java, Python, Go, Apache Kafka, Kubernetes, CI/CD with Jenkins,
-                Prometheus, Node.js, TypeScript, Git, MongoDB, AWS
+                Java, Python, Go, Apache Kafka, RaviitMQ, Kubernetes, CI/CD with
+                <span className="bg-[#E0F6FF]">
+                  {" "}
+                  Jenkins, Prometheus, Node.js Typescpit, Multimedia, HLS
+                </span>
               </p>
             </div>
 
             <div>
-              <h3 className="text-sm font-semibold text-gray-700 mb-2">
+              <h3 className="text-[12px] font-semibold text-[#000000] mb-2">
                 EXPERIENCE
               </h3>
               <div className="text-gray-600 text-sm">
@@ -182,15 +205,17 @@ const Hero = () => {
                     </p>
                   </div>
                   <div>
-                    <p className="text-[#535353] text-xs mb-2">
+                    <p className="text-[#535353] text-[10px] mb-2">
                       Jun 2015 - Present
                     </p>
                   </div>
                 </div>
                 <p className="text-[#535353] text-[10px] leading-relaxed">
                   Once you have your refined resume, explore our job board and
-                  instantly get hundreds of job matches where you'll be the top
-                  applicant. Create, edit, and apply – all from one panel.
+                  instantly get hundreds of job matches where you’ll be the top
+                  applicant!{" "}
+                  <span className="bg-[#E0F6FF]"> Create, edit, and apply</span>{" "}
+                  - all from one place!
                 </p>
                 <input
                   type="text"

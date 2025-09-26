@@ -3,7 +3,7 @@ import right from "../../assets/Icons/right.png";
 
 const ATSOptimizer = () => {
   return (
-    <div className="flex flex-col-reverse sm:flex-row px-4 sm:px-24 py-14">
+    <div className="flex flex-col-reverse sm:flex-row px-4 sm:px-8 md:px-16 lg:px-24 py-14">
       {/* Left Section */}
 
       <div className="flex justify-center  w-full sm:w-1/2">
@@ -16,7 +16,7 @@ const ATSOptimizer = () => {
 
       {/* Right Section */}
       <div className="w-full sm:w-1/2 space-y-4">
-        <h3 className="text-[32px] font-semibold">ATS Optimization Engine</h3>
+        <h3 className="text-[22px] sm:text-3xl md:text-[32px] font-semibold">ATS Optimization Engine</h3>
 
         <div className="flex items-start gap-2">
           <img className="w-4 h-4 mt-1" src={right} alt="right sign" />

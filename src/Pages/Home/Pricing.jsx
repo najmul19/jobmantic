@@ -6,7 +6,7 @@ const Pricing = () => {
   const [billing, setBilling] = useState("monthly");
 
   return (
-    <div className="px-4 sm:px-8 lg:px-24 py-16 text-center ">
+    <div className="px-4 sm:px-8 md:px-16 lg:px-24 lg:px-24 py-16 text-center ">
       <h2 className="text-[48px] font-bold sm:text-4xl  mb-6">Pricing</h2>
 
       {/* Toggle */}

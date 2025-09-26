@@ -3,10 +3,10 @@ import right from "../../assets/Icons/right.png";
 
 const ResumeManager = () => {
   return (
-    <div className="flex flex-col sm:flex-row px-4 sm:px-24 py-14">
+    <div className="flex flex-col sm:flex-row px-4 sm:px-8 md:px-16 lg:px-24 py-14">
       {/* Left Section */}
       <div className="w-full sm:w-1/2 space-y-4">
-        <h3 className="text-[32px] font-semibold">
+        <h3 className="text-[22px] sm:text-3xl md:text-[32px] font-semibold">
           Multi-Version Resume Management
         </h3>
 

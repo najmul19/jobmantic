@@ -5,7 +5,7 @@ import person from "../../../assets/Icons/person.png";
 
 const AIMotivation = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center px-4 py-10 overflow-hidden">
+    <div className="relative flex flex-col items-center justify-center px-4 py-10 sm:px-8 md:px-16 lg:px-24 overflow-hidden">
 
       {/* <div className="absolute -top-0 left-90 w-96 h-96 bg-[#1e83d1] rounded-full opacity-20 blur-[120px]"></div>
       <div className="absolute -bottom-40 right-40 w-[500px] h-[500px] bg-[#D1EBFF] rounded-full opacity-40 blur-[150px]"></div> */}

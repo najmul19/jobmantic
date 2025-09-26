@@ -61,7 +61,7 @@ const Footer = () => {
 
         {/* info */}
         <div className="mt-10">
-          <h3 className="font-semibold mb-3 text-[14px]">Related Tools</h3>
+          <h3 className="font-semibold mb-3 text-[14px] text-black">Related Tools</h3>
           <ul className="space-y-2 mb-6 text-[12px]">
             <li>AI Job Assistant</li>
             <li>AI Cover Letter Generator</li>

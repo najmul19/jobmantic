@@ -18,7 +18,7 @@ const Features = () => {
 
   return (
     <div>
-      <div className="px-4 sm:px-6 lg:px-24 py-8 lg:py-14 bg-gradient-to-r from-[#F9FBFF] via-[#F5F9FF] to-[#E6F2FF]">
+      <div className="px-4 sm:px-8 md:px-16 lg:px-24 py-8 lg:py-14 bg-gradient-to-r from-[#F9FBFF] via-[#F5F9FF] to-[#E6F2FF]">
         <div className="hidden lg:block">
           <div className="w-full flex justify-center ">
             <div className="pl-20 flex relative">

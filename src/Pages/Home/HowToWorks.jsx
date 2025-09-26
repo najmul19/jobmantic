@@ -46,7 +46,7 @@ const steps = [
 
 const HowToWorks = () => {
   return (
-    <div className="relative px-4 sm:px-8 lg:px-24 py-14 text-center text-[#000000]">
+    <div className="relative px-4 sm:px-8 md:px-16 lg:px-24 py-14 text-center text-[#000000]">
       
       <div className="absolute inset-0 bg-gradient-to-r from-white via-[#23A2FC] to-[#e0f2ff] opacity-30 blur-3xl -z-10"></div>
 

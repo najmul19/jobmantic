@@ -34,7 +34,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className=" py-12 px-6 sm:px-12 lg:px-24 text-center">
+    <div className=" py-12 px-4 sm:px-8 md:px-16 lg:px-24 text-center">
       {/* Learn More */}
       <button
         onClick={() => setShowFAQ(!showFAQ)}

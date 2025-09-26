@@ -5,10 +5,10 @@ import user3 from "../../assets/Icons/user3.png";
 
 const VoiceOfWorld = () => {
   return (
-    <div className="px-6 sm:px-10 lg:px-20 py-16  text-[#000000]">
+    <div className="px-4 sm:px-8 md:px-16 lg:px-24 py-16  text-[#000000]">
      {/* header */}
       <div className="max-w-4xl text-left">
-        <h2 className="text-2xl md:text-[36px] font-bold uppercase tracking-wide">
+        <h2 className="text-[22px] sm:text-3xl md:text-[32px] font-bold uppercase tracking-wide">
           VOICE FROM THE WORLD
         </h2>
         <p className="mt-2 text-[16px] md:text-[18px] max-w-xl">

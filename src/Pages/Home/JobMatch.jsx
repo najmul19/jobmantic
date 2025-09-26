@@ -4,7 +4,7 @@ import tara from "../../assets/Icons/Vector.png";
 
 const JobMatch = () => {
   return (
-    <div className="flex flex-col sm:flex-row items-center sm:items-start px-4 sm:px-24 py-14">
+    <div className="flex flex-col-reverse sm:flex-row items-center sm:items-start px-4 sm:px-8 md:px-16 lg:px-24 py-14">
       {/* Image section */}
       <div className="relative w-full sm:w-1/2 flex justify-center">
         <img
@@ -16,7 +16,7 @@ const JobMatch = () => {
 
       {/* Text section */}
       <div className="w-full sm:w-1/2 mt-10 sm:mt-0">
-        <h4 className="uppercase font-semibold text-[40px] mb-2">
+        <h4 className="uppercase font-semibold text-[22px] sm:text-[26px] md:text-[40px] mb-2">
           Lightning-Fast Job Matching
         </h4>
         <p className="text-[18px] w-full max-w-[544px]">

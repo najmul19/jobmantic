@@ -4,10 +4,10 @@ import arrow from "../../assets/Icons/arrow.png";
 import job_d from "../../assets/Icons/job-des.png";
 const ResumeTailoring = () => {
   return (
-    <div className="flex flex-col sm:flex-row px-4 sm:px-24 py-14">
+    <div className="flex flex-col sm:flex-row px-4 sm:px-8 md:px-16 lg:px-24 py-14">
   {/* Left Content */}
   <div className="w-full sm:w-1/2 mt-8 sm:mt-0">
-    <h3 className="text-[28px] sm:text-[40px] font-semibold">
+    <h3 className="text-[22px] sm:text-[26px] md:text-[40px] font-semibold">
       Smart Resume Tailoring
     </h3>
     <p className="text-[16px] sm:text-[18px] font-normal mt-2 max-w-[459px]">
@@ -15,7 +15,7 @@ const ResumeTailoring = () => {
       the right keywords, skills, and experiences to grab recruiters’
       attention and land interviews faster.
     </p>
-    <button className="bg-black flex items-center justify-center gap-2 text-white font-semibold rounded-full px-6 py-3 text-[16px] sm:text-[18px] hover:bg-gray-800 transition mt-4">
+    <button className="bg-black flex items-center justify-center gap-2 text-white font-semibold rounded-full px-3 sm:px-6 py-2 sm:py-3 text-[16px] sm:text-[18px] hover:bg-gray-800 transition mt-4">
       Create a resume
       <img className="w-5" src={arrow} alt="arrow" />
     </button>

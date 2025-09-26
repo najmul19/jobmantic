@@ -3,7 +3,7 @@ import avatar from "../../assets/Icons/avatar.png";
 
 const ResumeBuilder = () => {
   return (
-    <div className="px-4 sm:px-8 lg:px-24 py-12">
+    <div className="px-4  sm:px-8 md:px-16 lg:px-24">
       <div className=" relative flex flex-col sm:flex-row items-center justify-between 
                       bg-gradient-to-r from-[#99DAF4] to-[#ACA2EF] 
                       rounded-bl-[80px] rounded-tr-[80px] p-6 sm:p-10 lg:p-14 sm:max-h-[360px]">

@@ -48,10 +48,10 @@ const steps = [
 
 const JobPlacement = () => {
   return (
-    <div className="px-4 sm:px-12 lg:px-24 py-14">
+    <div className="px-4 sm:px-8 md:px-16 lg:px-24">
       {/* CTA Button */}
       <div className="flex w-full justify-center">
-        <button className="bg-black flex items-center justify-center gap-2 text-white font-semibold rounded-full px-6 py-3 text-[18px] sm:text-[20px] hover:bg-gray-800 transition mb-8">
+        <button className="bg-black flex items-center justify-center gap-2 text-white font-semibold rounded-full px-3 py-2 sm:px-6 sm:py-3 text-[18px] sm:text-[20px] hover:bg-gray-800 transition mb-8">
           Build your resume now
           <img className="w-[20px] sm:w-[24px]" src={arrow} alt="arrow" />
         </button>
@@ -59,7 +59,7 @@ const JobPlacement = () => {
 
       {/* Heading */}
       <div className="max-w-[650px] mt-10">
-        <h2 className="uppercase font-bold text-2xl sm:text-3xl lg:text-[36px] leading-snug">
+        <h2 className="uppercase font-bold text-[22px] sm:text-3xl md:text-[32px] leading-snug">
           Comprehensive AI-Powered Job Placement Suite
         </h2>
         <div className="relative w-[150px] sm:w-[199px] border-t-4 border-black my-4">

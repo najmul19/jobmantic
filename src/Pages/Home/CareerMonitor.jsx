@@ -4,9 +4,9 @@ import carrer_m from "../../assets/Icons/carer_mon.png";
 
 const CareerMonitor = () => {
   return (
-    <div className="flex flex-col sm:flex-row  px-4 sm:px-24 py-14">
+    <div className="flex flex-col sm:flex-row  px-4 sm:px-8 md:px-16 lg:px-24 py-14">
       <div className="w-full sm:w-1/2  mt-15 ">
-        <h3 className=" text-[40px] font-semibold ">Career Mentoring</h3>
+        <h3 className="text-[22px] sm:text-[26px] md:text-[40px] font-semibold ">Career Mentoring</h3>
         <p className="text-[18px] font-normal mt-2 max-w-[459px]">
           Personalized Career Mentoring to position yourself strong in the Job
           market; Craft a job-winning resume and optimize your profile for

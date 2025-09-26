@@ -27,7 +27,7 @@ const features = [
 
 const WhyChooseResumeBuilder = () => {
   return (
-    <div className="px-4 sm:px-8 lg:px-24 py-14 text-center">
+    <div className="px-6 sm:px-8 md:px-16 lg:px-24 text-center">
       <h3 className="text-2xl sm:text-3xl lg:text-[32px] font-semibold mb-10">
         Why Job Seekers Choose Our{" "}
         <span className="text-[#23A2FC]">AI Resume</span> Builder
